@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_cors import CORS
+from flask_cors import CORS #CHECK THE VERSION AND THE VENV for the setup of the project
 
 app = Flask(__name__)
 CORS(app) #enables CORS in all routes
